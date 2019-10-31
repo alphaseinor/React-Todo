@@ -8,6 +8,7 @@ const Item = props => {
 
   const handleClick = () => {
     //do something with the completedTask?
+    props.completedTask(props.item.id);
   };
 
   return (
